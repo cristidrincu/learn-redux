@@ -5,7 +5,6 @@
 //when the application starts, the state will be empty - this is to say that the default state is empty
 //a reducer takes in state, modify it and then return it
 function comments(action, state=[]) {
-    console.log(state, action);
     return state;
 }
 
