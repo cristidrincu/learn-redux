@@ -4,6 +4,8 @@
 
 //when the application starts, the state will be empty - this is to say that the default state is empty
 //a reducer takes in state, modify it and then return it
+
+//make sure to set the default state to an empty array, since the data in the posts is an array of posts
 function posts(state=[], action) {
     switch(action.type) {
         case 'INCREMENT_LIKES':
