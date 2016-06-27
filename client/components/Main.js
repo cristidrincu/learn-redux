@@ -9,7 +9,7 @@ const Main = React.createClass({
                     <Link to="/">Reduxstagram</Link>
                 </h1>
                 {/**Pass the properties of this component to its children(or child)*/}
-                {React.cloneElement(this.props.children, this.props)}
+                { React.cloneElement(this.props.children, this.props) }
             </div>
         )
     }
